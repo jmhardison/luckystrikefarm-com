@@ -1,14 +1,13 @@
 on: 
   pull_request:
-    types: [opened, closed]
 
 jobs:
   preview-pr:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       contents: read
       deployments: write
+      pull-requests: write
     name: Publish to Cloudflare Pages Preview
     steps:
       - name: Checkout
