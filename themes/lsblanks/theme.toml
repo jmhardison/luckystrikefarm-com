@@ -1,0 +1,12 @@
+name = "Lsblanks"
+license = "MIT"
+licenselink = "https://github.com/jmhardison/lsblanks/blob/master/LICENSE"
+description = "Luckystrikefarm blanks template"
+homepage = "https://luckystrikefarm.com/"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Jonathan Hardison"
+  homepage = "https://www.jonathanhardison.com"
