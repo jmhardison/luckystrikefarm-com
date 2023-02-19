@@ -32,4 +32,4 @@ jobs:
           directory: ./public
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{vars.GITHUB_REF_NAME}}
+          branch: ${{github.ref_name}}
